@@ -9,10 +9,10 @@ usage:
 
   jobs:
     build:
-      macos:
-        xcode: "9.0"
+      linux:
+        xcode: "16.04"
       steps:
         - checkout
 
         - kube-orb/install:
-            platform: darwin
+            platform: ubuntu
