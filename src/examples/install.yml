@@ -9,7 +9,7 @@ usage:
 
   jobs:
     build:
-      linux:
+      docker:
         xcode: "16.04"
       steps:
         - checkout
